@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3/animate.min.css">
+		<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+		
+		<title>Takuma Bell</title>
+
+		
+</head>
+<body>
+		<nav class="navbar navbar-fixed-top">
+  <div class="container-fluid">
+    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNav" aria-expanded="false">
+      <span class="sr-only">Toggle</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+     </button>
+    <a class="navbar-brand" href="#"><img src="https://lh3.googleusercontent.com/-NYiN5GhXAIg/Tj2I8NFRdfI/AAAAAAAAAHc/Ct7jgMhmfmQ/w140-h139-p/Photo%2B3.jpg" alt="Takuma" class="me" /></a>
+  </div>
+  
+  <div class="collapse navbar-collapse" id="myNav">
+    <ul class="nav navbar-nav pull-right">
+      
+      <li id="about"><a href="#about1">əˈbaʊt</a></li>
+      <li class="slash"> / </li>
+      <li id="work"><a href="#work1">wɜrk</a></li>
+      <li class="slash"> / </li>
+      <li id="contact"><a href="#contact1">ˈkɑnˌtækt</a></li>
+    </ul>
+  </div>
+</nav>
+
+
+  <section class="container-fluid" id="index">
+    <div class="row">
+      <div class="col-sm-12">
+      <h2 class="takuma">[ tʌˈkumʌ ]</h2>
+      <p class="welcome">wɛb dɪˈvɛləpər | ˈlɪŋgwɪst</p>
+      </div>
+    </div>
+  </section>
+
+<!-- About Section -->
+<section class="container" id="about1" style="background: #e7e7e7;">
+  <h2>[ əˈbaʊt ]</h2>
+  <div class="row">
+    <div class="col-sm-4">
+      <h3 id="lang">	læŋgwədʒ ləvər</h3>
+      <p class="fj"><strong>Language Lover</strong></p>
+      <p><strong>French & Japanese</strong>. My love for language has grown over the years, from the first time I stepped foot in Japan to my studies in linguistics at university. Language connects us all and provides a way of understanding other cultures. I would love to learn as many languages as I can, but right now I am mainly focused on improving my French.</p>
+    </div>
+    <div class="col-sm-4">
+      <h3 id="ling">ˈlɪŋgwɪst</h3>
+      <p class="fj"><strong>Linguist</strong></p>
+      <p><strong>B.A. in Linguistics December 2013</strong>. Linguistics has been a huge part of my life as well. Learning how language works gave me another perspective. Two of my favorite subfields of linguistics are language acquisition and syntax. Both fields intertwine with the new skills I've acquired in programming.</p>
+    </div>
+     <div class="col-sm-4">
+      <h3 id="web">wɛb <'dɪˈv'>ɛləpər</h3>
+       <p class="fj"><strong>Web Developer</strong></p>
+        <p id="ruby"><strong>Ruby, Ruby on Rails, HTML & CSS, Javascript</strong>. I recently completed an online web development course with <strong><em><a href="https://careerfoundry.com/">CareerFoundry</a></em></strong>. The six months I spent learning the afore mentioned web technologies has increased my patience and perseverance. Futhermore, the course enabled me to create two projects, a personal portfolio and an e-commerce website.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Work Section -->
+<section class="container-fluid" id="work1" style="background: #fff;">
+  <div class="row">
+    <div class="col-sm-12">
+      <h2 id="wor">/	 wɜrk /</h2>
+    </div>
+  </div>
+  <div class="row" id="myWork">
+  
+    <a href="https://shoefit.herokuapp.com"><img src="img/shoefit.jpg" id="shoe-fit" class="col-sm-4 image-responsive"></a>
+
+    <a href="http://takumab.bitballoon.com/"><img src="img/screenShot46.png" id="myPort" class="col-sm-4 image-responsive"></a>
+    <!--<div class="col-sm-4 hidden-sm-down" id="explain">
+     <h3>Not Done Yet ...</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere illo sunt distinctio, omnis error culpa id voluptatem saepe vitae laborum doloribus quae magni sed dolorem delectus vel. Amet repudiandae facere fugit quod unde, sequi consectetur doloribus quasi deserunt!</p>
+    </div>-->
+    
+  
+  </div>
+</section>
+ 
+<!-- Contact Page -->
+<section class="container-fluid" id="contact1" style="background: #990000;">
+  <div class="row">
+    <div class="col-sm-12">
+      <h2 id="con">	[ ˈkɑnˌtækt ]</h2>
+      <!--Modal button-->
+      <div class="modal-button">
+        <button class="btn btn-primary" data-toggle="modal" data-target="#myModal">Message me</button>
+      </div>
+      
+      <!--Modal content-->
+      <div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-sm">
+          <div class="modal-content">
+            <form>
+              <div class="form-group">
+                <labe for="inputName">Name</labe>
+                <input type="name" class="form-control" id="inputName" placeholder="Name" />
+              </div>
+              <div class="form-group">
+                <labe for="inputEmail">Email</labe>
+                <input type="email" class="form-control" id="inputEmail" placeholder="Email" />
+              </div>
+              <textarea class="form-control" rows="3"></textarea>
+            </form>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+<!-- Back-to-Top button -->
+<a href="#" class="back-to-top" style="display: inline;">
+  <span class="glyphicon glyphicon-arrow-up"></span>
+</a>
+
+
+
+
+
+<script src="js/jquery.stellar.min.js"></script>
+<script type="text/javascript"src="js/script.js"></script>
+	</body>
+
+</html>

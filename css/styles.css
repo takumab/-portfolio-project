@@ -1,0 +1,203 @@
+body {
+  overflow-x: hidden;
+}
+.navbar {
+  background: transparent;
+  color: #fff;
+  height: 5px;
+  z-index: 1;
+}
+
+.navbar-brand {
+  color: white;
+}
+
+.nav li a {
+  margin-top: 0;
+  padding-top: 0;
+  position: relative;
+  top: -34px;
+  color: #ff4d4d;
+  font-size: 1.2em;
+}
+
+.nav>li>a:hover, .nav>li>a:focus {
+    background-color: transparent;
+}
+
+.nav a:hover {
+  color: #000;
+}
+
+.slash {
+  position: relative;
+  top: -34px;
+  color: #ff4d4d;
+}
+
+#index {
+  background: #990000;
+  margin: 0px auto;
+  width: 100%; 
+  height: 850px;
+}
+
+/* Image */
+.me {
+  position: relative;
+  left: 0%;
+  top: -10px;
+  border-radius: 50%;
+  width: 40px;
+}
+
+.welcome {
+  text-align: center;
+  color: #fff;
+  position: relative;
+  top: 200px;
+  font-size: 2.5em; 
+}
+.takuma {
+  color: #fff;
+}
+
+h2 {
+  text-align: center;
+  color: #990000;
+  position: relative;
+  top: 200px;
+  font-size: 5em;
+}
+
+
+#skills {
+  border-radius: 10px;
+  background: #e7e7e7;
+}
+.skill {
+  color: black;
+  background: #990000;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+/* About Section */
+
+#about1 {
+  width: 100%; 
+  height: 850px;
+}
+
+#ruby a:hover {
+  text-decoration: none;
+}
+.col-sm-4 {
+  position: relative;
+  top: 200px;
+}
+
+h3 {
+  color: #990000;
+  font-size: 1.8em;
+  text-align: center;
+}
+
+.fj {
+  text-align:center;
+}
+/* Work section */
+
+#work1 {
+  width: 100%; 
+  height: 850px;
+}
+
+#myWork {
+  position: relative;
+  left: 10%;
+  top: 15px;
+}
+
+#explain {
+  text-align: center;
+}
+
+/* Contact section */
+
+#contact1 {
+  width: 100%; 
+  height: 850px;
+  
+}
+
+#con {
+  color: #fff;
+}
+
+.modal-button {
+  position: relative;
+  top: 200px;
+  left: 45%;
+  margin-top: 50px;
+  
+}
+
+.btn-primary {
+  background: #fff;
+  color: #990000;
+  border-color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: #fff;
+  color: #990000;
+}
+
+/* Work section */
+
+#shoe-fit {
+  width: 250px;
+  height: 200px;
+  margin: 0px 0px 0px 30px;
+}
+
+#myPort {
+  width: 250px;
+  height: 200px;
+  margin: 0px 20px 10px 40px;
+}
+
+#explain {
+  margin: 0px;
+  position: relative;
+  top: 170px;
+}
+
+/* back-to-top */
+
+.back-to-top {
+  background: none;
+  margin: 0;
+  position: fixed;
+  bottom: 0;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  z-index: 100;
+  text-decoration: none;
+  color: #ff4d4d;
+ 
+}
+
+.back-to-top span {
+  font-size: 40px;
+}
+
+.back-to-top a:hover {
+  color: #000;
+}
