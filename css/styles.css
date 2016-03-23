@@ -1,6 +1,9 @@
 body {
   overflow-x: hidden;
 }
+
+/* Navbar */
+
 .navbar {
   background: transparent;
   color: #fff;
@@ -40,6 +43,10 @@ body {
   margin: 0px auto;
   width: 100%; 
   height: 850px;
+}
+
+ span.icon-bar {
+  background-color: #fff;
 }
 
 /* Image */
@@ -110,6 +117,8 @@ h3 {
 .fj {
   text-align:center;
 }
+
+
 /* Work section */
 
 #work1 {
@@ -139,13 +148,45 @@ h3 {
   color: #fff;
 }
 
-.modal-button {
+/* social-media icons */
+
+.social-media {
+  letter-spacing: 5px;
+}
+
+.fa-github.fa-2x {
   position: relative;
   top: 200px;
   left: 45%;
   margin-top: 50px;
-  
+  color: #fff;
 }
+
+
+.fa-linkedin.fa-2x {
+  position: relative;
+  top: 200px;
+  left: 45%;
+  margin-top: 50px;
+  color: #fff;
+}
+
+.fa-twitter.fa-2x {
+  position: relative;
+  top: 200px;
+  left: 45%;
+  margin-top: 50px;
+  color: #fff;
+}
+
+.fa-facebook.fa-2x {
+  position: relative;
+  top: 200px;
+  left: 45%;
+  margin-top: 50px;
+  color: #fff;
+}
+
 
 .btn-primary {
   background: #fff;
@@ -157,6 +198,8 @@ h3 {
   background-color: #fff;
   color: #990000;
 }
+
+
 
 /* Work section */
 
@@ -198,6 +241,7 @@ h3 {
   font-size: 40px;
 }
 
-.back-to-top a:hover {
-  color: #000;
+span.glyphicon.glyphicon-arrow-up a:hover {
+  color: #111;
 }
+
